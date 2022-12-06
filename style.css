@@ -111,11 +111,7 @@ body{
                
     }
 
-    .nav-menu-link:hover{
-        background:none;
-        color:#83c5f7;
-    }
-
+    .nav-menu-link:hover,       
     .nav-menu-link_active{
         background-color: #034574;
         transition: 0.5s;
@@ -126,6 +122,6 @@ body{
     }
 
     .nav-menu_visible{
-        
+        left: 0;
     }
 }
